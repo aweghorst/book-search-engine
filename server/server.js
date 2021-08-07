@@ -1,3 +1,5 @@
+//TODO implement the apollo server and apply it to the express server as middleware
+
 const express = require('express');
 const path = require('path');
 const db = require('./config/connection');

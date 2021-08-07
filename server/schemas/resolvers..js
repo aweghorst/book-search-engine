@@ -1,0 +1,1 @@
+//TODO Define the query and mutation functionality to work with the mongoose models (use user-controller.js as a guide)
