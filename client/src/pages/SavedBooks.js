@@ -13,7 +13,7 @@ import {
 import Auth from "../utils/auth";
 import { QUERY_ME } from "../utils/queries";
 import { REMOVE_BOOK } from "../utils/mutations";
-import { useQuery } from "@apollo/client";
+import { useQuery, useMutation } from "@apollo/client";
 
 const SavedBooks = () => {
   const [userData, setUserData] = useState({ savedBooks: [] });
