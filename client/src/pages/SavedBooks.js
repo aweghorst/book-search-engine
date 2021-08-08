@@ -17,7 +17,7 @@ import { useQuery } from "@apollo/client";
 
 const SavedBooks = () => {
   const [userData, setUserData] = useState({ savedBooks: [] });
-  const { loading, userData, refetch } = useQuery(QUERY_ME);
+  const { loading, data, refetch } = useQuery(QUERY_ME);
   const [removeBook] = useMutation(REMOVE_BOOK);
 
   useEffect(() => {
